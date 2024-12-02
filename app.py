@@ -11,7 +11,7 @@ winner_address = None  # Adres zwycięzcy
 @app.route('/')
 def home():
     return '''
-        <h1>Flask App</h1>
+        <h1>Fcongrats!</h1>
         <p>Use the form below to claim the reward.</p>
         <form action="/claim" method="post">
             <input type="text" name="address" placeholder="Enter your wallet address" required>
