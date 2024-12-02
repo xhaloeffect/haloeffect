@@ -12,7 +12,7 @@ winner_address = None  # Adres zwycięzcy
 def home():
     return '''
         <h1>Congrats!</h1>
-        <p>Use the form below to claim the reward.</p>
+        <p>(Use Solana wallet below) Use the form below to claim the reward.</p>
         <form action="/claim" method="post">
             <input type="text" name="address" placeholder="Enter your wallet address" required>
             <button type="submit">Submit</button>
